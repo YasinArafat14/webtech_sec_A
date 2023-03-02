@@ -1,0 +1,168 @@
+/* General styles */
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+main {
+	padding: 20px;
+}
+
+.error {
+	color: #f00;
+}
+
+.message {
+	color: #0c0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 10px;
+	margin-top: 5px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+a {
+	color: #333;
+}
+
+/* Specific styles */
+
+/* Login page */
+
+.login-form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.login-form img {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+/* Registration page */
+
+.registration-form img {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+/* Profile page */
+
+.profile-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card h3 {
+	margin-top: 0;
+}
+
+.profile-card p {
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.profile-card form {
+	margin-top: 20px;
+}
+
+/* Change password page */
+
+.change-password-form img {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+/* Logout page */
+
+.logout-message {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 50px;
+}
+
+.logout-message img {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+/* Images */
+
+.login-image {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.registration-image {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.profile-image {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.change-profile-image-form img {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.logout-image {
+	max-width: 400px;
+	margin: 0 auto;
+} 
